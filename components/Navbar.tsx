@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="fixed top-5 left-1/2 -translate-x-1/2 w-[90%] md:w-[60%] z-50 glass rounded-full px-6 py-3 flex justify-between items-center">
       <div className="flex items-center gap-2 font-bold italic">
         <Terminal size={20} className="text-accent" />
-        <span><a href="#hero" className="hover:text-accent transition-colors">SHIVAM.DEV</a></span>
+        <span><a href="#" className="hover:text-accent transition-colors">SHIVAM.DEV</a></span>
       </div>
       
       <div className="flex gap-6 text-sm font-medium">

@@ -10,13 +10,14 @@ import BackgroundEffects from "@/components/BackgroundEffects";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://shivam-backend-dev.vercel.app"),
   title: "Shivam | Backend Developer - Spring Boot & Java Expert",
   description: "1 year hands on experience in building production-ready backend systems with Java, Spring Boot, and Machine Learning. Open to new opportunities in backend development, machine learning and SDE roles.", 
   keywords: ["Full-Stack Java Developer", "Spring Boot", "Backend Engineer", "Machine Learning", "Shivam Portfolio"],
   openGraph: { 
     title: "Shivam | Backend Developer",
     description: "Building scalable and secure backend architectures including Spring Security and OAuth2 integration and Spring AI with ADK (Agent Development Kit)Building Agents and Integrate in our projects and System.",
-    url: "http://localhost:3000",
+    url: "https://shivam-backend-dev.vercel.app",
     siteName: "Shivam Dev Portfolio",
     images: [
       {
