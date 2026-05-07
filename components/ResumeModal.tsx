@@ -34,7 +34,7 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               </div>
               <div className="flex gap-4">
                 <a 
-                  href="/Shivam-resume.pdf" 
+                  href="/Shivam_resume.pdf" 
                   download 
                   className="p-2 glass rounded-full hover:bg-emerald-500/20 text-emerald-500 transition-colors"
                 >
